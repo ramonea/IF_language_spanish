@@ -1,1 +1,8 @@
-# IF_language_spanish
+Language name (Nombre del Idioma): Español
+Code: es
+Locale: es_ES.UTF-8,es_ES,es-es,es_es,español
+
+Image: es.png
+directory: spanish
+Nombre del archivo: spanish
+Estado: Activado (Enabled)
