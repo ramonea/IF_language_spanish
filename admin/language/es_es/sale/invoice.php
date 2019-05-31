@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']                           = 'Invoices';
+$_['heading_title']                           = 'Facturas';
 
 // Text
 $_['text_success']                            = 'Success: You have modified orders!';
@@ -116,11 +116,11 @@ $_['text_maxmind_id']                         = 'Maxmind ID:<br /><span class="h
 $_['text_error']                              = 'Error:<br /><span class="help">Returns an error string with a warning message or a reason why the request failed.</span>';
 
 // Column
-$_['column_order_id']                         = 'Order ID';
-$_['column_customer']                         = 'Customer';
-$_['column_status']                           = 'Status';
-$_['column_date_added']                       = 'Date Added';
-$_['column_date_modified']                    = 'Date Modified';
+$_['column_invoice_id']                       = 'ID Factura';
+$_['column_customer']                         = 'Cliente';
+$_['column_status']                           = 'Estado';
+$_['column_date_added']                       = 'Añadido el';
+$_['column_date_modified']                    = 'Modificado el';
 $_['column_total']                            = 'Total';
 $_['column_product']                          = 'Product';
 $_['column_model']                            = 'Model';
@@ -131,7 +131,7 @@ $_['column_filename']                         = 'Filename';
 $_['column_remaining']                        = 'Remaining Downloads';
 $_['column_comment']                          = 'Comment';
 $_['column_notify']                           = 'Customer Notified';
-$_['column_action']                           = 'Action';
+$_['column_action']                           = 'Acción';
 $_['entry_vat']                               = 'VAT number:';
 
 // Entry
@@ -203,6 +203,6 @@ $_['error_filename']                          = 'Filename must be between 3 and 
 $_['error_filetype']                          = 'Invalid file type!';
 $_['error_action']                            = 'Warning: Could not complete this action!';
 
-$_['button_invoice'] 						  = 'Print Invoice';
+$_['button_invoice'] 						  = 'Imprimir Factura';
 
 ?>

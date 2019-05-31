@@ -5,6 +5,6 @@ Spanish Language pack for <a href="https://github.com/InvoiceFlash/InvoiceFlash"
 - Locale: es_ES.UTF-8,es_ES,es-es,es_es,español
 
 - Image: es.png
-- directory: es_es
+- directory: es_ES
 - Nombre del archivo: spanish
 - Estado: Activado (Enabled)
