@@ -1,11 +1,11 @@
 <?php
 // Text
-$_['text_approve_subject']      = '%s - Your Affiliate Account has been activated!';
-$_['text_approve_welcome']      = 'Welcome and thank you for registering at %s!';
-$_['text_approve_login']        = 'Your account has now been created and you can log in by using your email address and password by visiting our website or at the following URL:';
-$_['text_approve_services']     = 'Upon logging in, you will be able to generate tracking codes, track commission payments and edit your account information.';
-$_['text_approve_thanks']       = 'Thanks,';
-$_['text_transaction_subject']  = '%s - Affiliate Commission';
-$_['text_transaction_received'] = 'You have received %s commission!';
-$_['text_transaction_total']    = 'Your total amount of commission is now %s.';
+$_['text_approve_subject']      = '%s - Su Cuenta de Afiliado ha sido Activada!';
+$_['text_approve_welcome']      = 'Bienvenido y Gracias por Registrarse en %s!';
+$_['text_approve_login']        = 'Su Cuenta ha sido Creada y puede Conectarse usando su Dirección E-Mail y Clave para visitar nuestro Sitio Web o en la siguiente Dirección Web:';
+$_['text_approve_services']     = 'Una vez Conectado, Usted tiene la disponibilidad para Generar Códigos de Seguimiento, seguimiento de Pagos por Comisión y editar Información de su Cuenta';
+$_['text_approve_thanks']       = 'Gracias,';
+$_['text_transaction_subject']  = '%s - Comisión de Afiliado';
+$_['text_transaction_received'] = 'Usted ha recibido Comisión de %s!';
+$_['text_transaction_total']    = 'Su Monto Total de Comisión actual es de %s.';
 ?>

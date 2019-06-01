@@ -1,17 +1,18 @@
 <?php 
-$_['heading_title'] 		= 'Mails';
+$_['heading_title'] 		= 'Correo';
 
 //Tabs
-$_['tab_inbox'] 			= 'Inbox';
-$_['tab_outbox'] 			= 'Outbox';
-$_['tab_mail'] 				= 'Mail';
+$_['tab_inbox'] 			= 'Entrada';
+$_['tab_outbox'] 			= 'Salida';
+$_['tab_mail'] 				= 'Correo';
 
 //Columns
-$_['column_from'] 			= 'From';
-$_['column_customer'] 		= 'From Customer';
-$_['column_subject'] 		= 'Subject';
+$_['column_from'] 			= 'De';
+$_['column_customer'] 		= 'del cliente';
+$_['column_subject'] 		= 'Asunto';
 $_['column_date'] 			= 'Date';
 $_['column_action'] 		= 'Action';
+$_['column_received'] 		= 'Recibido';
 
 //Texts
 $_['text_no_results'] 		= 'No results found!';
@@ -24,12 +25,12 @@ $_['entry_subject'] 		= 'Subject:';
 $_['entry_message'] 		= 'Message:';
 
 //Buttons
-$_['button_reply']			= 'Reply';
-$_['button_delete'] 		= 'Delete';
-$_['button_getMails'] 		= 'Get Mails';
-$_['button_reset'] 			= 'Get Mails';
-$_['button_cancel'] 		= 'Cancel';
-$_['button_close'] 			= 'Close';
+$_['button_reply']			= 'Responder';
+$_['button_delete'] 		= 'Borrar';
+$_['button_getMails'] 		= 'Bajar Correo';
+$_['button_reset'] 			= 'Bajar Correo';
+$_['button_cancel'] 		= 'Cancelar';
+$_['button_close'] 			= 'Cerrar';
 $_['button_send'] 			= 'Send';
 
  ?>

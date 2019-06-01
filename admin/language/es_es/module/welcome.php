@@ -1,22 +1,22 @@
 <?php
 // Heading
-$_['heading_title']       = 'Welcome';
+$_['heading_title']       = 'Bienvenido';
 
 // Text
-$_['text_module']         = 'Modules';
-$_['text_success']        = 'Success: You have modified module welcome!';
-$_['text_content_top']    = 'Content Top';
-$_['text_content_bottom'] = 'Content Bottom';
-$_['text_column_left']    = 'Column Left';
-$_['text_column_right']   = 'Column Right';
+$_['text_module']         = 'Módulos';
+$_['text_success']        = 'Correcto: Ha modificado el módulo Bienvenido!';
+$_['text_content_top']    = 'Contenido Principal';
+$_['text_content_bottom'] = 'Contenido al Final';
+$_['text_column_left']    = 'Columna Izquierda';
+$_['text_column_right']   = 'Columna Derecha';
 
 // Entry
-$_['entry_description']   = 'Welcome Message:';
-$_['entry_layout']        = 'Layout:';
-$_['entry_position']      = 'Position:';
-$_['entry_status']        = 'Status:';
-$_['entry_sort_order']    = 'Sort Order:';
+$_['entry_description']   = 'Mensaje de Bienvenida:';
+$_['entry_layout']        = 'Ubicación:';
+$_['entry_position']      = 'Posición:';
+$_['entry_status']        = 'Estado:';
+$_['entry_sort_order']    = 'Orden:';
 
 // Error
-$_['error_permission']    = 'Warning: You do not have permission to modify module welcome!';
+$_['error_permission']    = 'Advertencia: No tiene permiso para modificar el Módulo Bienvenido!';
 ?>

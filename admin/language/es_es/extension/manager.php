@@ -1,12 +1,12 @@
 <?php
 // Heading 
-$_['heading_title']    = 'Extension Manager';
+$_['heading_title']    = 'Gestor de Extensiones';
 
 // Text
-$_['text_success']     = 'Success: You have installed your extension!';
+$_['text_success']     = 'Exito: Has instalado tu extension!';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify extension manager!';
-$_['error_upload']     = 'Upload required!';
-$_['error_filetype']   = 'Invalid file type!';
+$_['error_permission'] = 'Atención: no tienes permiso para modificar el gestor de extensiones!';
+$_['error_upload']     = 'Se requiere Upload!';
+$_['error_filetype']   = 'Tipo de archivo invalido!';
 ?>

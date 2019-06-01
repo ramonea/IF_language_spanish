@@ -1,24 +1,24 @@
 <?php
 // Heading
-$_['heading_title']      = 'Geo Zones';
+$_['heading_title']      = 'Zonas Geográficas';
 
 // Text
-$_['text_success']       = 'Success: You have modified geo zones!';
+$_['text_success']       = 'Correcto: Ha modificado laz Zonas Geográficas!';
 
 // Column
-$_['column_name']        = 'Geo Zone Name';
-$_['column_description'] = 'Description';
-$_['column_action']      = 'Action';
+$_['column_name']        = 'Nombre de la Zona Geográfica';
+$_['column_description'] = 'Descripción';
+$_['column_action']      = 'Acción';
 
 // Entry
-$_['entry_name']         = 'Geo Zone Name:';
-$_['entry_description']  = 'Description:';
-$_['entry_country']      = 'Country:';
-$_['entry_zone']         = 'Zone:';
+$_['entry_name']         = 'Nombre de la Zona Geográfica:';
+$_['entry_description']  = 'Descripción:';
+$_['entry_country']      = 'País:';
+$_['entry_zone']         = 'Zona:';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to modify geo zones!';
-$_['error_name']         = 'Geo Zone Name must be between 3 and 32 characters!';
-$_['error_description']  = 'Description Name must be between 3 and 255 characters!';
-$_['error_tax_rate']     = 'Warning: This geo zone cannot be deleted as it is currently assigned to one or more tax rates!';
+$_['error_permission']   = 'Advertencia: No tiene permiso para modificar Zonas Geográficas!';
+$_['error_name']         = 'El nombre de la Zona Geográfica debe estar entre 3 y 32 caracteres!';
+$_['error_description']  = 'La descripción debe estar entre 3 y 255 caracteres!';
+$_['error_tax_rate']     = 'Advertencia: Esta Zona Geográfica no puede se borrada mientras esté asignada a un Tipo de Impuesto!';
 ?>

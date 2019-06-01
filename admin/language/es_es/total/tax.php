@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Taxes';
+$_['heading_title']    = 'Impuesto';
 
 // Text
-$_['text_total']       = 'Order Totals';
-$_['text_success']     = 'Success: You have modified taxes total!';
+$_['text_total']       = 'Total Orden';
+$_['text_success']     = 'Correcto: Ha Modificado Total Impuesto!';
 
 // Entry
-$_['entry_status']     = 'Status:';
-$_['entry_sort_order'] = 'Sort Order:';
+$_['entry_status']     = 'Estado:';
+$_['entry_sort_order'] = 'Orden:';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify taxes total!';
+$_['error_permission'] = 'Advertencia: No tiene Permiso para Modificar Total Impuesto!';
 ?>

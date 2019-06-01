@@ -1,20 +1,20 @@
 <?php
 // header
-$_['heading_title']   = 'Forgot Your Password?';
+$_['heading_title']   = '¿Olvidó su Clave?';
 
 // Text
-$_['text_forgotten']  = 'Forgotten Password';
-$_['text_your_email'] = 'Your E-Mail Address';
-$_['text_email']      = 'Enter the e-mail address associated with your account. Click submit to have a password reset link e-mailed to you.';
-$_['text_success']    = 'An email with a confirmation link has been sent your admin email address.';
+$_['text_forgotten']  = 'Clave Olvidada';
+$_['text_your_email'] = 'Su Dirección E-Mail';
+$_['text_email']      = 'Introduzca la dirección del E-Mail asociada con su Cuenta. Haga Click para obtener un Enlace para Resetear su Clave por medio de un E-Mail.';
+$_['text_success']    = 'Le ha sido enviado un E-Mail a su dirección Administrativa con un Enlace de Confirmación.';
 
 // Entry
-$_['entry_email']     = 'E-Mail Address:';
-$_['entry_password']  = 'New Password:';
-$_['entry_confirm']   = 'Confirm:';
+$_['entry_email']     = 'Dirección E-Mail:';
+$_['entry_password']  = 'Nueva Clave:';
+$_['entry_confirm']   = 'Confirmar:';
 
 // Error
-$_['error_email']     = 'Warning: The E-Mail Address was not found in our records, please try again!';
-$_['error_password']  = 'Password must be between 3 and 20 characters!';
-$_['error_confirm']   = 'Password and password confirmation do not match!';
+$_['error_email']     = 'Advertencia: La Dirección del E-Mail no fué encontrada en nuestros Registros, Por Favor trate de nuevo!';
+$_['error_password']  = 'Clave debe estar entre 3 y 20 caracteres!';
+$_['error_confirm']   = 'Clave y confirmación de la Clave no son Iguales!';
 ?>

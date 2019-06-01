@@ -97,4 +97,6 @@ $_['text_report_customer_support']     = 'Mantenimientos de Clientes';
 $_['text_statuses']     			   = 'Tipos de Estado';
 $_['text_invoice_status'] 			   = 'Estados de las Facturas';
 $_['text_mail'] 			   		   = 'Correo';
+$_['text_export_import'] 			   = 'Exportar/Importar';
+$_['text_invoiceflash'] 			   = 'InvoiceFlash';
 ?>

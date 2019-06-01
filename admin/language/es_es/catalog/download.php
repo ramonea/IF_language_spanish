@@ -1,30 +1,30 @@
 <?php
 // Heading
-$_['heading_title']    = 'Downloads';
+$_['heading_title']    = 'Descargas';
 
 // Text
-$_['text_success']     = 'Success: You have modified downloads!';
-$_['text_upload']      = 'Your file was successfully uploaded!';
+$_['text_success']     = 'Correcto: Ha modificado Descargas!';
+$_['text_upload']      = 'Su archivo se enviado satisfactoriamente!';
 
 // Column
-$_['column_name']      = 'Download Name';
-$_['column_remaining'] = 'Total Downloads Allowed';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Nombre de la Descarga';
+$_['column_remaining'] = 'Total de Descargas permitidas';
+$_['column_action']    = 'Acción';
 
 // Entry
-$_['entry_name']       = 'Download Name:';
-$_['entry_filename']   = 'Filename:<br /><span class="help">You can upload via the upload button or use FTP to upload to the download directory and enter the details below.<br /><br />It is also recommended that the filename and the mask are different to stop people trying to directly link to your downloads.</span>';
-$_['entry_mask']       = 'Mask:';
-$_['entry_remaining']  = 'Total Downloads Allowed:';
-$_['entry_update']     = 'Push to Previous Customers:<br /><span class="help">Check this to update previously purchased versions as well.</span>';
+$_['entry_name']       = 'Nombre de la Descarga:';
+$_['entry_filename']   = 'Nombre de Archivo:';
+$_['entry_mask']       = 'Mascara:';
+$_['entry_remaining']  = 'Total de Descargas permitidas:';
+$_['entry_update']     = 'Actualizar a Clientes anteriores:<br /><span class="help">Marque aquí para actualizar las versiones previamente compradas.</span>';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify downloads!';
-$_['error_name']       = 'Name must be between 3 and 64 characters!';
-$_['error_upload']     = 'Upload required!';
-$_['error_filename']   = 'Filename must be between 3 and 128 characters!';
-$_['error_exists']     = 'File does not exist!';
-$_['error_mask']       = 'Mask must be between 3 and 128 characters!';
-$_['error_filetype']   = 'Invalid file type!';
-$_['error_product']    = 'Warning: This download cannot be deleted as it is currently assigned to %s products!';
+$_['error_permission'] = 'Advertencia: No tiene permiso para modificar Descargas!';
+$_['error_name']       = 'Nombre debe estar entre 3 y 64 caracteres!';
+$_['error_upload']     = 'Se requiere enviar un fichero!';
+$_['error_exists']     = 'El archivo no exite!';
+$_['error_filename']   = 'Nombre de archivo debe estar entre 3 y 128 caracteres!';
+$_['error_mask']       = 'La mascara deberia tener entre 3 y 128 caracters!';
+$_['error_filetype']   = 'Tipo de archivo inválido!';
+$_['error_product']    = 'Advertencia: Esta descarga no puede ser borrada porque está asignada a %s productos!';
 ?>

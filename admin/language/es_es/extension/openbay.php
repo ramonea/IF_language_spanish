@@ -1,7 +1,7 @@
 <?php
-// Heading
-$_['lang_heading_title']        = 'OpenBay Pro';
-$_['lang_text_manager']         = 'OpenBay Pro manager';
+// Heading 
+$_['lang_heading_title']        = 'OpenBay Pro'; 
+$_['lang_text_manager']         = 'OpenBay Pro manager'; 
 
 // Text
 $_['text_install']              = 'Install';
@@ -40,6 +40,7 @@ $_['lang_column_action']        = 'Action';
 
 // Error
 $_['error_permission']          = 'Warning: You do not have permission to modify eBay extensions!';
+$_['lang_error_retry']          = 'Could not connect to the OpenBay server. ';
 
 // Updates
 $_['lang_use_pasv']                     = 'Use passive FTP';
@@ -89,8 +90,10 @@ $_['lang_clearfaqbtn']                  = 'Clear';
 
 // Ajax elements
 $_['lang_ajax_ebay_shipped']            = 'The order will be marked as shipped on eBay automatically';
+$_['lang_ajax_play_shipped']            = 'The order will be marked as shipped on Play.com automatically';
 $_['lang_ajax_amazoneu_shipped']        = 'The order will be marked as shipped on Amazon EU automatically';
 $_['lang_ajax_amazonus_shipped']        = 'The order will be marked as shipped on Amazon US automatically';
+$_['lang_ajax_play_refund']             = 'A refund will be issued to play.com for this order automatically';
 $_['lang_ajax_refund_reason']           = 'Refund reason';
 $_['lang_ajax_refund_message']          = 'Refund message';
 $_['lang_ajax_refund_entermsg']         = 'You must enter a refund message';
@@ -113,5 +116,4 @@ $_['lang_pod_shop']                     = 'Store';
 
 $_['lang_checking_messages']            = 'Checking for messages';
 $_['lang_title_messages']               = 'Messages &amp; notifications';
-$_['lang_error_retry']          		= 'Could not connect to the OpenBay server. ';
 ?>

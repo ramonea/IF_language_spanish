@@ -1,44 +1,46 @@
 <?php
 // Heading  
-$_['heading_title']     = 'Gift Voucher';
+$_['heading_title']     = 'Certificado de Regalo';
 
 // Text
-$_['text_send']         = 'Send';
-$_['text_success']      = 'Success: You have modified vouchers!';
-$_['text_sent']         = 'Success: Gift Voucher e-mail has been sent!';
-$_['text_wait']         = 'Please Wait!';
+$_['text_send']         = 'Enviar';
+$_['text_success']      = 'Correcto: Ha modificado Certificado de Regalo!';
+$_['text_sent']         = 'Correcto: E-mail de Certificado de Regalo ha sido enviado!';
+$_['text_wait']         = 'Por Favor Espere!';
 
 // Column
-$_['column_name']       = 'Voucher Name';
-$_['column_code']       = 'Code';
-$_['column_from']       = 'From';
-$_['column_to']         = 'To';
-$_['column_theme']      = 'Theme';
-$_['column_amount']     = 'Amount';
-$_['column_status']     = 'Status';
-$_['column_order_id']   = 'Order ID';
-$_['column_customer']   = 'Customer';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Nombre Certificado';
+$_['column_code']       = 'Código';
+$_['column_from']       = 'De';
+$_['column_to']         = 'Para';
+$_['column_theme']      = 'Tema';
+$_['column_amount']     = 'Monto';
+$_['column_date_added'] = 'Fecha Adicionado';
+$_['column_status']     = 'Estado';
+$_['column_order_id']   = 'Id Orden';
+$_['column_customer']   = 'Cliente';
+$_['column_date_added'] = 'Fecha Adicionado';
+$_['column_action']     = 'Acción';
 
 // Entry
-$_['entry_code']        = 'Code:<br /><span class="help">The code the customer enters to activate the voucher.</span>';
-$_['entry_from_name']   = 'From Name:';
-$_['entry_from_email']  = 'From E-Mail:';
-$_['entry_to_name']     = 'To Name:';
-$_['entry_to_email']    = 'To E-Mail:';
-$_['entry_theme']       = 'Theme:';
-$_['entry_message']     = 'Message:';
-$_['entry_amount']      = 'Amount:';
-$_['entry_status']      = 'Status:';
+$_['entry_code']        = 'Código:<br /><span class="help">El Código que el cliente introduce para activar el Certificado de Regalo.</span>';
+$_['entry_from_name']   = 'Nombre Remitente:';
+$_['entry_from_email']  = 'E-Mail Remitente:';
+$_['entry_to_name']     = 'Nombre Destinatario:';
+$_['entry_to_email']    = 'E-Mail Destinatario:';
+$_['entry_message']     = 'Mensaje:';
+$_['entry_amount']      = 'Monto:';
+$_['entry_theme']       = 'Tema:';
+$_['entry_status']      = 'Estado:';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify vouchers!';
-$_['error_exists']      = 'Warning: Voucher code is already in use!';
-$_['error_code']        = 'Code must be between 3 and 10 characters!';
-$_['error_to_name']     = 'Recipient\'s Name must be between 1 and 64 characters!';
-$_['error_from_name']   = 'Your Name must be between 1 and 64 characters!';
-$_['error_email']       = 'E-Mail Address does not appear to be valid!';
-$_['error_amount']      = 'Amount must be greater than or equal to 1!';
-$_['error_order']       = 'Warning: This voucher cannot be deleted as it is part of an <a href="%s">order</a>!';
+$_['error_permission']  = 'Advertencia: No tiene permiso para modificar Certificado de Regalo!';
+$_['error_exists']      = 'Advertencia: El codigo de Vale ya está en uso!';
+$_['error_code']        = 'Código debe estar entre 3 y 10 caracteres!';
+$_['error_to_name']     = 'Nombre Destinatario estar entre 1 y 64 caracteres!';
+$_['error_from_name']   = 'Su Nombre debe estar entre 1 y 64 caracteres!';
+$_['error_email']       = 'E-Mail no válido!';
+$_['error_amount']      = 'El Monto debe ser mayor o igual a 1!';
+$_['error_order']       = 'Advertencia: Este vale no se puede borrar pues forma parte de un <a href="%s">pedido</a>!';
+
 ?>

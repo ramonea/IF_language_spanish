@@ -1,18 +1,18 @@
 <?php
 // Heading
-$_['heading_title']    = 'Handling Fee';
+$_['heading_title']    = 'Costo x Manipulación';
 
 // Text
-$_['text_total']       = 'Order Totals';
-$_['text_success']     = 'Success: You have modified handling fee total!';
+$_['text_total']       = 'Total Orden';
+$_['text_success']     = 'Correcto: Ha Modificado Total Costo x Manipulación!';
 
 // Entry
-$_['entry_total']      = 'Order Total:';
-$_['entry_fee']        = 'Fee:';
-$_['entry_tax_class']  = 'Tax Class:';
-$_['entry_status']     = 'Status:';
-$_['entry_sort_order'] = 'Sort Order:';
+$_['entry_total']      = 'Total Orden:';
+$_['entry_fee']        = 'Costo:';
+$_['entry_tax']        = 'Impuesto:';
+$_['entry_status']     = 'Estado:';
+$_['entry_sort_order'] = 'Orden:';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify handling fee total!';
+$_['error_permission'] = 'Advertencia: No tiene Permiso para Modificar Total Costo x Manipulación!';
 ?>

@@ -1,14 +1,14 @@
 <?php
 // Text
-$_['text_approve_subject']      = '%s - Your Account has been activated!';
-$_['text_approve_welcome']      = 'Welcome and thank you for registering at %s!';
-$_['text_approve_login']        = 'Your account has now been created and you can log in by using your email address and password by visiting our website or at the following URL:';
-$_['text_approve_services']     = 'Upon logging in, you will be able to access other services including reviewing past orders, printing invoices and editing your account information.';
-$_['text_approve_thanks']       = 'Thanks,';
-$_['text_transaction_subject']  = '%s - Account Credit';
-$_['text_transaction_received'] = 'You have received %s credit!';
-$_['text_transaction_total']    = 'Your total amount of credit is now %s.' . "\n\n" . 'Your account credit will be automatically deducted from your next purchase.';
-$_['text_reward_subject']       = '%s - Reward Points';
-$_['text_reward_received']      = 'You have received %s Reward Points!';
-$_['text_reward_total']         = 'Your total number of reward points is now %s.';
+$_['text_approve_subject']      = '%s - Su Cuenta ha sido Activada!';
+$_['text_approve_welcome']      = 'Bienvenido y Gracias por Registrarse en %s!';
+$_['text_approve_login']        = 'Su Cuenta ha sido Creada y puede Conectarse usando su Dirección E-Mail y Clave para visitar nuestro Sitio Web o en la siguiente Dirección Web:';
+$_['text_approve_services']     = 'Una vez Conectado, Usted tiene la disponibilidad para accesar otros Servicios incluyendo Revisión de Ordenes anteriores, imprimir Facturas y editar Información de su Cuenta.';
+$_['text_approve_thanks']       = 'Gracias,';
+$_['text_transaction_subject']  = '%s - Crédito de la Cuenta';
+$_['text_transaction_received'] = 'Usted ha recibido %s en crédito!';
+$_['text_transaction_total']    = 'Su Monto Total de Crédito actual es de %s.' . "\n\n" . 'Su Crédito de Cuenta será automáticamente deducida de su próxima Compra.';
+$_['text_reward_subject']       = '%s - Puntos de Premio';
+$_['text_reward_received']      = 'Usted ha recibido %s Puntos de Premio!';
+$_['text_reward_total']         = 'Su númeto total de Puntos de Premio ahora es de %s.';
 ?>

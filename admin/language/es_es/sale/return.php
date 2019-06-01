@@ -1,69 +1,69 @@
 <?php
 // Heading
-$_['heading_title']       = 'Product Returns';
+$_['heading_title']        = 'Devoluciones Productos';
 
 // Text
-$_['text_opened']         = 'Opened';
-$_['text_unopened']       = 'Unopened';
-$_['text_success']        = 'Success: You have modified returns!';
-$_['text_wait']           = 'Please Wait!';
+$_['text_opened']          = 'Abierto';
+$_['text_unopened']        = 'Cerrado';
+$_['text_success']         = 'Correcto: Ha modificado Devoluciones!';
+$_['text_wait']            = 'Por Favor Espere!';
 
 // Text
-$_['text_return_id']      = 'Return ID:';
-$_['text_order_id']       = 'Order ID:';
-$_['text_date_ordered']   = 'Order Date:';
-$_['text_customer']       = 'Customer:';
-$_['text_email']          = 'E-Mail:';
-$_['text_telephone']      = 'Telephone:';
-$_['text_return_status']  = 'Return Status:';
-$_['text_date_added']     = 'Date Added:';
-$_['text_date_modified']  = 'Date Modified:';
-$_['text_product']        = 'Product:';
-$_['text_model']          = 'Model:';
-$_['text_quantity']       = 'Quantity:';
-$_['text_return_reason']  = 'Return Reason:';
-$_['text_return_action']  = 'Return Action:';
-$_['text_comment']        = 'Comment:';
+$_['text_return_id']       = 'ID Devolución:';
+$_['text_order_id']        = 'ID Orden:';
+$_['text_date_ordered']    = 'Fecha Orden:';
+$_['text_customer']        = 'Cliente:';
+$_['text_email']           = 'E-Mail:';
+$_['text_telephone']       = 'Teléfono:';
+$_['text_return_status']   = 'Estado Devolución:';
+$_['text_date_added']      = 'Fecha Adicionada:';
+$_['text_date_modified']   = 'Fecha Modificada:';
+$_['text_product']         = 'Producto:';
+$_['text_model']           = 'Modelo:';
+$_['text_quantity']        = 'Cantidad:';
+$_['text_return_reason']   = 'Razon de la devolución:';
+$_['text_return_action']   = 'Accion de Devolucion:';
+$_['text_comment']         = 'Comentario:';
 
 // Column
-$_['column_return_id']     = 'Return ID';
-$_['column_order_id']      = 'Order ID';
-$_['column_customer']      = 'Customer';
-$_['column_product']       = 'Product';
-$_['column_model']         = 'Model';
-$_['column_status']        = 'Status';
-$_['column_date_added']    = 'Date Added';
-$_['column_date_modified'] = 'Date Modified';
-$_['column_comment']       = 'Comment';
-$_['column_notify']        = 'Customer Notified';
-$_['column_action']        = 'Action';
+$_['column_return_id']     = 'ID Revolución';
+$_['column_order_id']      = 'ID Orden';
+$_['column_customer']      = 'Cliente';
+$_['column_product']       = 'Producto';
+$_['column_model']         = 'Modelo';
+$_['column_status']        = 'Estado';
+$_['column_date_added']    = 'Fecha Adicionada';
+$_['column_date_modified'] = 'Fecha Modificada';
+$_['column_comment']       = 'Comentario';
+$_['column_notify']        = 'Cliente Notificado';
+$_['column_action']        = 'Acción';
 
 // Entry
-$_['entry_customer']      = 'Customer:';
-$_['entry_order_id']      = 'Order ID:';
-$_['entry_date_ordered']  = 'Order Date:';
-$_['entry_firstname']     = 'First Name:';
-$_['entry_lastname']      = 'Last Name:';
-$_['entry_email']         = 'E-Mail:';
-$_['entry_telephone']     = 'Telephone:';
-$_['entry_product']       = 'Product:<br /><span class="help">(Autocomplete)</span>';
-$_['entry_model']         = 'Model:';
-$_['entry_quantity']      = 'Quantity:';
-$_['entry_reason']        = 'Return Reason:';
-$_['entry_opened']        = 'Opened:';
-$_['entry_comment']       = 'Comment:';
-$_['entry_return_status'] = 'Return Status:';
-$_['entry_notify']        = 'Notify Customer:';
-$_['entry_action']        = 'Return Action:';
+$_['entry_customer']       = 'Cliente:';
+$_['entry_order_id']       = 'ID Orden:';
+$_['entry_date_ordered']   = 'Fecha Orden:';
+$_['entry_firstname']      = 'Nombre:';
+$_['entry_lastname']       = 'Apellidos:';
+$_['entry_email']          = 'E-Mail:';
+$_['entry_telephone']      = 'Teléfono:';
+$_['entry_product']        = 'Producto:<br /><span class="help">(Autocompletar)</span>';
+$_['entry_model']          = 'Modelo:';
+$_['entry_quantity']       = 'Cantidad:';
+$_['entry_reason']         = 'Razón Devolución:';
+$_['entry_opened']         = 'Abierto:';
+$_['entry_comment']        = 'Comentario:';
+$_['entry_return_status']  = 'Estado Devolución:';
+$_['entry_notify']         = 'Notificar Cliente:';
+$_['entry_action']         = 'Acción Devolución:';
 
 // Error
-$_['error_warning']       = 'Warning: Please check the form carefully for errors!';
-$_['error_permission']    = 'Warning: You do not have permission to modify returns!';
-$_['error_order_id']      = 'Order ID required!';
-$_['error_firstname']     = 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']      = 'Last Name must be between 1 and 32 characters!';
-$_['error_email']         = 'E-Mail Address does not appear to be valid!';
-$_['error_telephone']     = 'Telephone must be between 3 and 32 characters!';
-$_['error_product']       = 'Product Name must be greater than 3 and less than 255 characters!';
-$_['error_model']         = 'Product Model must be greater than 3 and less than 64 characters!';
+$_['error_warning']        = 'Advertencia: Por favor revise el formulario cuidadosamente por si tiene errores!';
+$_['error_permission']     = 'Advertencia: No tiene permiso para modificar Devoluciones!';
+$_['error_order_id']       = 'Se requiere la ID del Pedido!';
+$_['error_firstname']      = 'Nombre debe estar entre 1 y 32 caracteres!';
+$_['error_lastname']       = 'Apellidos debe estar entre 1 y 32 caracteres!';
+$_['error_email']          = 'E-Mail no es válido!';
+$_['error_telephone']      = 'Teléfono debe estar entre 3 y 32 caracteres!';
+$_['error_product']        = 'El nombre del producto debe mayor de 3 y menor de 255 caracteres!';
+$_['error_model']          = 'El modelo del Producto debe ser mayor de 3 y menor de 64 caracteres!';
 ?>

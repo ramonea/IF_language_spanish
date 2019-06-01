@@ -1,9 +1,9 @@
 <?php
 // Text
-$_['text_subject']  = 'You have been sent a gift voucher from %s';
-$_['text_greeting'] = 'Congratulations, You have received a Gift Certificate worth %s';
-$_['text_from']     = 'This Gift Certificate has been sent to you by %s';
-$_['text_message']  = 'With a message saying';
-$_['text_redeem']   = 'To redeem this Gift Certificate, write down the redemption code which is <b>%s</b> then click on the the link below and purchase the product you wish to use this gift voucher on. You can enter the gift voucher code on the shopping cart page before you click checkout.';
-$_['text_footer']   = 'Please reply to this email if you have any questions.';
+$_['text_subject']  = 'Le han enviado un Certificado de Regalos de %s';
+$_['text_greeting'] = 'Felicidades, Usted ha recibido un Certificado de Regalos por un valor de %s';
+$_['text_from']     = 'Este Certificado ha sido enviato por %s';
+$_['text_message']  = 'Con un Mensaje que dice';
+$_['text_redeem']   = 'Para canjear este Certificado, escriba el código el cual es <b>%s</b> a continuación, haga click en el enlace de abajo y compre el producto que desee y use el Certificado. Introduzca el código del Recibo del Certificado en la página del carro de compras antes de hacer click en Pagar.';
+$_['text_footer']   = 'Por Favor responda este E-Mail si tiene preguntas.';
 ?>

@@ -1,24 +1,24 @@
 <?php
 // Heading
-$_['heading_title']       = 'Bestsellers';
+$_['heading_title']       = 'Más Vendidos';
 
 // Text
-$_['text_module']         = 'Modules';
-$_['text_success']        = 'Success: You have modified module bestsellers!';
-$_['text_content_top']    = 'Content Top';
-$_['text_content_bottom'] = 'Content Bottom';
-$_['text_column_left']    = 'Column Left';
-$_['text_column_right']   = 'Column Right';
+$_['text_module']         = 'Módulos';
+$_['text_success']        = 'Correcto: Ha modificado el módulo Más Vendidos!';
+$_['text_content_top']    = 'Contenido Principal';
+$_['text_content_bottom'] = 'Contenido al Final';
+$_['text_column_left']    = 'Columna Izquierda';
+$_['text_column_right']   = 'Columna Derecha';
 
 // Entry
-$_['entry_limit']         = 'Limit:';
-$_['entry_image']         = 'Image (W x H) and Resize Type:';
-$_['entry_layout']        = 'Layout:';
-$_['entry_position']      = 'Position:';
-$_['entry_status']        = 'Status:';
-$_['entry_sort_order']    = 'Sort Order:';
+$_['entry_limit']         = 'Límite:';
+$_['entry_image']         = 'Imagen (Ancho x Alto):';
+$_['entry_layout']        = 'Ubicación:';
+$_['entry_position']      = 'Posición:';
+$_['entry_status']        = 'Estado:';
+$_['entry_sort_order']    = 'Orden:';
 
 // Error
-$_['error_permission']    = 'Warning: You do not have permission to modify module bestsellers!';
-$_['error_image']         = 'Image width &amp; height dimensions required!';
+$_['error_permission']    = 'Advertencia: no tiene permiso para modificar el Módulo Más Vendidos!';
+$_['error_image']         = 'Ancho y Alto de Imagen son requeridos!';
 ?>

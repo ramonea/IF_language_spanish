@@ -1,1 +1,109 @@
-<?php// Heading$_['heading_title']         = 'Customer';$_['heading_contact']		= 'Customer Contact';// Text$_['text_success']          = 'Success: You have modified customers!';$_['text_default']          = 'Default';$_['text_approved']         = 'You have approved %s accounts!';$_['text_wait']             = 'Please Wait!';$_['text_balance']          = 'Balance:';$_['text_add_ban_ip']       = 'Add Ban IP';$_['text_remove_ban_ip']    = 'Remove Ban IP';// Tabs$_['tab_email']             = 'Emails';$_['tab_products']          = 'Products';$_['tab_quotes']            = 'Quotes';$_['tab_orders']            = 'Orders';$_['tab_delivery']          = 'Delivery Notes';$_['tab_invoice']           = 'Invoices';$_['tab_notes']             = 'Notes';$_['tab_info']              = 'Info';$_['tab_various']           = 'Various';// Column$_['column_name']           = 'Customer Name';$_['column_email']          = 'E-Mail';$_['column_quote']          = 'Quote Nº';$_['column_customer_group'] = 'Customer Group';$_['column_status']         = 'Status'; $_['column_login']          = 'Login into Store';$_['column_approved']       = 'Approved';$_['column_date_added']     = 'Date Added';$_['column_comment']        = 'Comment';$_['column_description']    = 'Description';$_['column_amount']         = 'Amount';$_['column_points']         = 'Points';$_['column_ip']             = 'IP';$_['column_total']          = 'Total Accounts';$_['column_action']         = 'Action';$_['column_invoice']        = 'Invoice Nº';$_['column_delivery']       = 'Delivery Nº';$_['column_order']          = 'Order Nº';$_['column_email']          = 'Emails';$_['column_email_subject']  = 'Subject';$_['column_email_text']     = 'Text';$_['column_product_id']     = 'ID';$_['column_product_name']   = 'Product';$_['column_order_date']     = 'Date';$_['column_quantity']       = 'Quantity';$_['column_customer_id']    = 'ID';// Entry$_['entry_firstname']       = 'First Name:';$_['entry_lastname']        = 'Last Name:';$_['entry_email']           = 'E-Mail:';$_['entry_telephone']       = 'Telephone:';$_['entry_fax']             = 'Fax:';$_['entry_newsletter']      = 'Newsletter:';$_['entry_customer_group']  = 'Customer Group:';$_['entry_status']          = 'Status:';$_['entry_password']        = 'Password:';$_['entry_confirm']         = 'Confirm:';$_['entry_company']         = 'Company:';$_['entry_company_id']      = 'Company ID:';$_['entry_tax_id']          = 'Tax ID:';$_['entry_address_1']       = 'Address 1:';$_['entry_address_2']       = 'Address 2:';$_['entry_city']            = 'City:';$_['entry_postcode']        = 'Postcode:';$_['entry_country']         = 'Country:';$_['entry_zone']            = 'Region / State:';$_['entry_default']         = 'Default Address:';$_['entry_comment']         = 'Comment:';$_['entry_description']     = 'Description:';$_['entry_amount']          = 'Amount:';$_['entry_points']          = 'Points:<br /><span class="help">Use minus to remove points</span>';$_['text_datecreated']      = 'Created:' ;$_['text_date_modified']    = 'Last modified:' ;$_['text_date_support']     = 'Date Support:' ;$_['text_bank']     		= 'Bank:';$_['text_bic']   		    = 'BIC:';// Error$_['error_warning']         = 'Warning: Please check the form carefully for errors!';$_['error_permission']      = 'Warning: You do not have permission to modify customers!';$_['error_exists']          = 'Warning: E-Mail Address is already registered!';$_['error_firstname']       = 'First Name must be between 1 and 32 characters!';$_['error_lastname']        = 'Last Name must be between 1 and 32 characters!';$_['error_email']           = 'E-Mail Address does not appear to be valid!';$_['error_telephone']       = 'Telephone must be between 3 and 32 characters!';$_['error_password']        = 'Password must be between 4 and 20 characters!';$_['error_confirm']         = 'Password and password confirmation do not match!';$_['error_company_id']      = 'Company ID required!';$_['error_tax_id']          = 'Tax ID required!';$_['error_vat']             = 'VAT number is invalid!';$_['error_address_1']       = 'Address 1 must be between 3 and 128 characters!';$_['error_city']            = 'City must be between 2 and 128 characters!';$_['error_postcode']        = 'Postcode must be between 2 and 10 characters for this country!';$_['error_country']         = 'Please select a country!';$_['error_zone']            = 'Please select a region / state!';// contacts$_['tab_contacts'] = 'Contacts';$_['column_name'] = 'Name';$_['column_telephone'] = 'Telephone';$_['column_contact_email'] = 'Email';$_['column_date'] = 'Date';$_['button_add_contact'] = 'Add Contact';$_['text_delete'] = 'Delete';// contacts form$_['entry_name'] = 'Name:';$_['entry_telephone2'] = 'Telephone 2:';$_['entry_puesto'] = 'Job:';$_['entry_notas'] = 'Notes:';// contracts$_['tab_contracts'] = 'Contracts';$_['column_article'] = 'Article';$_['column_quantity'] = 'Quantity';$_['column_end_support'] = 'End Support';$_['button_add_contract'] = 'Add Contract';$_['entry_article'] = 'Article:';$_['entry_quantity'] = 'Quantity:';$_['entry_date'] = 'Date Purchased:';$_['entry_end_support'] = 'End Support:';$_['entry_notes'] = 'Notes:';// notes$_['heading_title_note'] = 'Note';$_['entry_user'] = 'User:';$_['entry_date_note'] = 'Date:';$_['column_user'] = 'User';$_['button_add_note'] = 'Add Note';$_['button_delete_note'] = 'Delete Note';// New Email$_['text_to'] = 'To:';$_['text_subject'] = 'Subject:';$_['text_message'] = 'Message:';$_['button_new_email'] = 'New Email';$_['button_send'] = 'Send';$_['text_alert_imap'] = 'Imap library is not installed!!';?>
+<?php
+// Heading
+$_['heading_title']         = 'Clientes';
+
+// Text
+$_['text_login']            = 'Conectar';
+$_['text_success']          = 'Correcto: Ha modificado Clientes!';
+$_['text_approved']         = 'Usted ha aprobado %s cuentas!';
+$_['text_wait']             = 'Por Favor Espere!';
+$_['text_balance']          = 'Balance:';
+$_['text_add_blacklist']    = 'Añadir a Blacklist';
+$_['text_remove_blacklist'] = 'Quitar de Blacklist';
+$_['text_date_support']     = 'Fin de Soporte';
+$_['text_date_modified']    = 'Fecha Modificado';
+$_['text_datecreated']      = 'Creado';
+$_['text_bank']             = 'C/C';
+$_['text_fiscal']           = 'Fiscal';
+$_['text_receptor']         = 'Receptor';
+$_['text_bic']              = 'BIC';
+$_['text_paid']             = 'Pago';
+
+// Column
+$_['column_name']           = 'Nombre Cliente';
+$_['column_email']          = 'E-Mail';
+$_['column_customer_group'] = 'Grupo Cliente';
+$_['column_status']         = 'Estado';
+$_['column_login']          = 'Login';
+$_['column_approved']       = 'Aprobado';
+$_['column_comment']        = 'Comentarios';
+$_['column_date_added']     = 'Fecha Adicionado';
+$_['column_description']    = 'Descripción';
+$_['column_amount']         = 'Monto';
+$_['column_points']         = 'Puntos';
+$_['column_ip']             = 'IP';
+$_['column_total']          = 'Total Cuentas';
+$_['column_action']         = 'Acción';
+$_['column_company']        = 'Empresa';
+$_['column_user']           = 'Usuario';
+$_['column_date']           = 'Fecha';
+$_['column_telephone']      = 'Teléfono';
+$_['column_invoice']        = 'Factura';
+$_['column_product_id']     = 'ID';
+$_['column_end_support']    = 'Fin de Soporte';
+$_['column_contact_email']  = 'Email contacto';
+$_['column_email_subject']  = 'Asunto';
+$_['column_email_text']     = 'Texto';
+
+// Tabs
+$_['tab_contacts']          = 'Contactos';
+$_['tab_email']             = 'Emails';
+$_['tab_notes']             = 'Notas';
+$_['tab_various']           = 'Varios';
+$_['tab_info']              = 'Info';
+$_['tab_contracts']         = 'Contratos';
+$_['tab_products']          = 'Products';
+$_['tab_invoice']           = 'Facturas';
+$_['tab_quotes']            = 'Presupuestos';
+$_['tab_orders']            = 'Pedidos';
+$_['tab_delivery']          = 'Albaranes';
+
+// Entry
+$_['entry_firstname']       = 'Nombre:';
+$_['entry_lastname']        = 'Apellidos:';
+$_['entry_email']           = 'E-Mail:';
+$_['entry_telephone']       = 'Teléfono:';
+$_['entry_fax']             = 'Fax:';
+$_['entry_newsletter']      = 'Boletín de Noticias:';
+$_['entry_customer_group']  = 'Grupo de Cliente:';
+$_['entry_status']          = 'Estado:';
+$_['entry_password']        = 'Clave:';
+$_['entry_confirm']         = 'Confirmar:';
+$_['entry_company']         = 'Compañía:';
+$_['entry_company_id']      = 'ID de la Empresa:';
+$_['entry_nif']             = 'NIF:';
+$_['entry_address_1']       = 'Dirección 1:';
+$_['entry_address_2']       = 'Dirección 2:';
+$_['entry_city']            = 'Ciudad:';
+$_['entry_postcode']        = 'Código Postal:';
+$_['entry_country']         = 'País:';
+$_['entry_zone']            = 'Ciudad / Provincia:';
+$_['entry_default']         = 'Dirección Predeterminada:';
+$_['entry_comment']         = 'Comentario:';
+$_['entry_description']     = 'Descripción:';
+$_['entry_amount']          = 'Monto:';
+$_['entry_digital_invoice'] = 'Quiere factura digital';
+$_['entry_points']          = 'Puntos:<br /><span class="help">Usa menos para quitar puntos</span>';
+
+//Button
+$_['button_add_note']       = 'Añadir Nota:';
+$_['button_new_email']      = 'Nuevo Mail:';
+
+// Error
+$_['error_warning']         = 'Advertencia: Por favor revise el formulario cuidadosamente por si tiene errores!';
+$_['error_permission']      = 'Advertencia: No tiene permiso para modificar Clientes!';
+$_['error_firstname']       = 'Nombre debe estar entre 1 y 32 caracteres!';
+$_['error_lastname']        = 'Apellidos debe estar entre 1 y 32 caracteres!';
+$_['error_email']           = 'E-Mail no es válido!';
+$_['error_telephone']       = 'Teléfono debe estar entre 3 y 32 caracteres!';
+$_['error_password']        = 'Clave debe estar entre 4 y 20 caracteres!';
+$_['error_confirm']         = 'Clave y confirmación de Clave no Coinciden!';
+$_['error_company_id']      = 'Se requiere ID de la empresa!';
+$_['error_tax_id']          = 'Se requiere Numero de Identificación Fiscal!';
+$_['error_vat']             = 'El NIF es invalido!';
+$_['error_address_1']       = 'Dirección 1 debe estar entre 3 y 128 caracteres!';
+$_['error_city']            = 'Ciudad debe estar entre 2 y 128 caracteres!';
+$_['error_postcode']        = 'Código Postal debe estar entre 2 y 10 caracteres para este país!';
+$_['error_country']         = 'Por Favor seleccione un País!';
+$_['error_zone']            = 'Por Favor seleccione una Ciudad / Provincia!';
+?>

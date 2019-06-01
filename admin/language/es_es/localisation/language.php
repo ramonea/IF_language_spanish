@@ -1,36 +1,36 @@
 <?php
 // Heading
-$_['heading_title']     = 'Language';  
+$_['heading_title']     = 'Idiomas';
 
 // Text
-$_['text_success']      = 'Success: You have modified languages!'; 
+$_['text_success']      = 'Correcto: Ha modificado los idiomas!'; 
 
 // Column
-$_['column_name']       = 'Language Name';
-$_['column_code']       = 'Code';
-$_['column_sort_order'] = 'Sort Order';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Nombre del idioma';
+$_['column_code']       = 'Código';
+$_['column_sort_order'] = 'Orden';
+$_['column_action']     = 'Acción';
 
 // Entry
-$_['entry_name']        = 'Language Name:';
-$_['entry_code']        = 'Code:<br /><span class="help">eg: en. Do not change if this is your default language.</span>';
-$_['entry_locale']      = 'Locale:<br /><span class="help">eg: en_US.UTF-8,en_US,en-gb,en_gb,english</span>';
-$_['entry_image']       = 'Image:<br /><span class="help">eg: gb.png</span>';
-$_['entry_directory']   = 'Directory:<br /><span class="help">name of the language directory (case-sensitive)</span>';
-$_['entry_filename']    = 'Filename:<br /><span class="help">main language filename without extension</span>';
-$_['entry_status']      = 'Status:<br /><span class="help">Hide/Show it in language dropdown</span>';
-$_['entry_sort_order']  = 'Sort Order:';
+$_['entry_name']        = 'Nombre del Idioma:';
+$_['entry_code']        = 'Código:<br /><span class="help">ejemplo: en. No lo cambie si este es su idioma predeterminado.</span>';
+$_['entry_locale']      = 'Local:<br /><span class="help">ejemplo: en_US.UTF-8,en_US,en-gb,en_gb,english</span>';
+$_['entry_image']       = 'Imagen:<br /><span class="help">ejemplo: gb.png</span>';
+$_['entry_directory']   = 'Directorio:<br /><span class="help">Nombre del directorio de idiomas (distingue mayúsculas y minúsculas)</span>';
+$_['entry_filename']    = 'Nombre del fichero:<br /><span class="help">Nombre del fichero principal de idioma sin extensión</span>';
+$_['entry_status']      = 'Estado:<br /><span class="help">Mostrar/Ocultar en la lista desplegable de idiomas</span>';
+$_['entry_sort_order']  = 'Orden:';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify languages!';
-$_['error_name']        = 'Language Name must be between 3 and 32 characters!';
-$_['error_code']        = 'Language Code must at least 2 characters!';
-$_['error_locale']      = 'Locale required!';
-$_['error_image']       = 'Image Filename must be between 3 and 64 characters!';
-$_['error_directory']   = 'Directory required!';
-$_['error_filename']    = 'Filename must be between 3 and 64 characters!';
-$_['error_default']     = 'Warning: This language cannot be deleted as it is currently assigned as the default store language!';
-$_['error_admin']       = 'Warning: This Language cannot be deleted as it is currently assigned as the administration language!';
-$_['error_store']       = 'Warning: This language cannot be deleted as it is currently assigned to %s stores!';
-$_['error_order']       = 'Warning: This language cannot be deleted as it is currently assigned to %s orders!';
+$_['error_permission']  = 'Advertencia: No tiene permiso para modificar idiomas!';
+$_['error_name']        = 'El nombre del idioma debe estar entre 3 y 32 caracteres!';
+$_['error_code']        = 'El código de idioma debe tener por lo menos 2 caracteres!';
+$_['error_locale']      = 'Local es obligatorio!';
+$_['error_image']       = 'El nombre de fichero de la imagen debe estar entre 3 y 64 caracteres!';
+$_['error_directory']   = 'Directorio obligatorio!';
+$_['error_filename']    = 'El nombre del fichero debe estar entre 3 and 64 caracteres!';
+$_['error_default']     = 'Advertencia: Este idioma no puede ser borrado mientras esté asignado a la tienda por defecto!';
+$_['error_admin']       = 'Advertencia: Este idioma no puede ser borrado mientras esté asignado al idioma de la Administración!';
+$_['error_store']       = 'Advertencia: Este idioma no puede ser borrado mientras esté asignado a to %s tiendas!';
+$_['error_order']       = 'Advertencia: Este idioma no puede ser borrado mientras esté asignado a to %s órdenes!';
 ?>

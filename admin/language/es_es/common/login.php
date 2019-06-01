@@ -1,20 +1,20 @@
 <?php
 // header
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'Administración';
 
 // Text
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'Please enter your login details';
-$_['text_forgotten'] = 'Forgotten Password';
+$_['text_heading']   = 'Administración';
+$_['text_login']     = 'Detalles de su Conexión';
+$_['text_forgotten'] = 'Clave Olvidada';
 
 // Entry
-$_['entry_username'] = 'Username:';
-$_['entry_password'] = 'Password:';
+$_['entry_username'] = 'Nombre Usuario:';
+$_['entry_password'] = 'Clave:';
 
 // Button
-$_['button_login']   = 'Login';
+$_['button_login']   = 'Conectar';
 
 // Error
-$_['error_login']    = 'No match for Username and/or Password.';
-$_['error_token']    = 'Invalid token session. Please login again.';
+$_['error_login']    = 'No coincide nombre de usuario y/o contraseña.';
+$_['error_token']    = 'Sesión inválida. Por favor, intente de nuevo.';
 ?>

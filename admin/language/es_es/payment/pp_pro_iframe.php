@@ -1,4 +1,5 @@
 <?php
+
 // Heading
 $_['heading_title'] = 'PayPal Website Payment Pro iFrame';
 
@@ -24,7 +25,9 @@ $_['text_refund'] = 'Refund';
 $_['text_resend'] = 'Resend';
 $_['text_reauthorise'] = 'Reauthorise';
 $_['text_reauthorised'] = 'Transaction was reauthorised';
+
 $_['text_transaction'] = 'Transaction';
+
 $_['text_product_lines'] = 'Product lines';
 $_['text_ebay_txn_id'] = 'eBay transaction ID';
 $_['text_name'] = 'Name';
@@ -106,10 +109,7 @@ $_['text_sub_amt'] = 'Subscription amount';
 $_['text_sub_period'] = 'Subscription period';
 $_['text_redirect'] = 'Redirect';
 $_['text_iframe'] = 'Iframe';
-$_['help_checkout_method'] = "Please use Redirect method if do not have SSL installed or if you do not have Pay with PayPal option disabled on your hosted payment page.";
-$_['help_debug'] = "Logs additional information.";
 
-//Table columns
 $_['column_trans_id'] = 'Transaction ID';
 $_['column_amount'] = 'Amount';
 $_['column_type'] = 'Payment type';
@@ -118,16 +118,18 @@ $_['column_pend_reason'] = 'Pending reason';
 $_['column_created'] = 'Created';
 $_['column_action'] = 'Action';
 
-//Buttons
 $_['button_refund'] = 'Refund';
 $_['button_void'] = 'Void';
 $_['button_capture'] = 'Capture';
 $_['button_reauthorise'] = 'Reauthorise';
 
-//Tabs
 $_['tab_settings'] = 'Settings';
 $_['tab_order_status'] = 'Order Status';
 $_['tab_checkout_customisation'] = 'Checkout Customisation';
+
+
+$_['help_checkout_method'] = "Please use Redirect method if do not have SSL installed or if you do not have Pay with PayPal option disabled on your hosted payment page.";
+$_['help_debug'] = "Logs additional information.";
 
 // Entry
 $_['entry_user'] = 'API User:<br /><span class="help">API username (this is not usually your PayPal email, it is created for you when you request API access)</span>';
@@ -147,6 +149,7 @@ $_['entry_message'] = 'Message';
 $_['entry_ipn_url'] = 'IPN URL:';
 $_['entry_checkout_method'] = 'Checkout Method:';
 $_['entry_debug'] = 'Debug mode:';
+
 $_['entry_canceled_reversal_status'] = 'Canceled Reversal Status:';
 $_['entry_completed_status'] = 'Completed Status:';
 $_['entry_denied_status'] = 'Denied Status:';
@@ -167,5 +170,6 @@ $_['error_timeout'] = 'Request timed out';
 $_['error_transaction_missing'] = 'Could not find the transaction';
 $_['error_missing_data'] = 'Missing data';
 $_['error_general'] = 'There was an error';
+
 $_['error_capture_amt'] = 'Enter an amount to capture';
 ?>

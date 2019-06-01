@@ -1,25 +1,25 @@
 <?php
 // Heading
-$_['heading_title']      = 'Voucher Themes';
+$_['heading_title']      = 'Temas de Certificado de Regalo';
 
 // Text
-$_['text_success']       = 'Success: You have modified voucher themes!';
-$_['text_image_manager'] = 'Image Manager';
-$_['text_browse']        = 'Browse';
-$_['text_clear']         = 'Clear';
+$_['text_success']       = 'Correcto: Ha modificado Temas de Certificado de Regalo!';
+$_['text_image_manager'] = 'Gestor de Imágenes';
+$_['text_browse']        = 'Seleccionar';
+$_['text_clear']         = 'Quitar imagen';
 
 // Column
-$_['column_name']        = 'Voucher Theme Name';
-$_['column_action']      = 'Action';
+$_['column_name']        = 'Noombre del Tema';
+$_['column_action']      = 'Acción';
 
 // Entry
-$_['entry_name']         = 'Voucher Theme Name:';
-$_['entry_description']  = 'Voucher Theme Description:';
-$_['entry_image']        = 'Image:';
+$_['entry_name']         = 'Nombre del Tema:';
+$_['entry_description']  = 'Descripción del Tema:';
+$_['entry_image']        = 'Imagen:';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify voucher themes!';
-$_['error_name']        = 'Voucher Theme Name must be between 3 and 32 characters!';
-$_['error_image']       = 'Image required!';
-$_['error_voucher']     = 'Warning: This voucher theme cannot be deleted as it is currently assigned to %s vouchers!';
+$_['error_permission']  = 'Advertencia: No tiene permiso para modificar Temas de Certificado de Regalo!';
+$_['error_name']        = 'Nombre del Tema debe estar entre 3 y 32 caracteres!';
+$_['error_image']       = 'Imagen requerida!';
+$_['error_voucher']     = 'Advertencia: Este Tema de Certificado no puede ser borrado porque está asignado a los %s Certificados!';
 ?>

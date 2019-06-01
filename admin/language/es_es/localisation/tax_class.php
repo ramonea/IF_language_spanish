@@ -1,28 +1,31 @@
 <?php
 // Heading
-$_['heading_title']     = 'Tax Class';
+$_['heading_title']     = 'Tipo de Impuesto';
 
 // Text
-$_['text_shipping']     = 'Shipping Address';
-$_['text_payment']      = 'Payment Address';
-$_['text_store']        = 'Store Address';
-$_['text_success']      = 'Success: You have modified tax classes!';
+$_['text_shipping']     = 'Dirección de envío';
+$_['text_payment']      = 'Dirección de pago';
+$_['text_store']        = 'Dirección de la tienda';
+$_['text_success']      = 'Correcto: Ha modificado los tipos de Impuestos!';
 
 // Column
-$_['column_title']      = 'Tax Class Title';
-$_['column_action']     = 'Action';
+$_['column_title']      = 'Título del tipo de Impuesto';
+$_['column_action']     = 'Acción';
 
 // Entry
-$_['entry_title']       = 'Tax Class Title:';
-$_['entry_description'] = 'Description:';
-$_['entry_rate']        = 'Tax Rate:';
-$_['entry_based']       = 'Based On:';
-$_['entry_geo_zone']    = 'Geo Zone:';
-$_['entry_priority']    = 'Priority:';
+$_['entry_title']       = 'Título del tipo de Impuesto:';
+$_['entry_description'] = 'Descripción:';
+$_['entry_geo_zone']    = 'Zonas Geográficas:';
+$_['entry_priority']    = 'Prioridad:';
+$_['entry_based']       = 'Basado en:';
+$_['entry_rate']        = 'Porcentaje del Impuesto:';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify tax classes!';
-$_['error_title']       = 'Tax Class Title must be between 3 and 32 characters!';
-$_['error_description'] = 'Description must be between 3 and 255 characters!';
-$_['error_product']     = 'Warning: This tax class cannot be deleted as it is currently assigned to %s products!';
+$_['error_permission']  = 'Advertencia: No tiene permiso para modificar tipos de impuestos!';
+$_['error_title']       = 'El título del tipo de impuesto debe estar entre 3 y 32 caracteres!';
+$_['error_description'] = 'La descripción debe estar entre 3 y 255 caracteres!';
+$_['error_priority']    = 'Prioridad del impuesto obligatorio!';
+$_['error_rate']        = 'Porcentaje del impuesto obligatorio!';
+$_['error_description'] = 'La descripción del tipo de impuesto debe estar entre 3 and 255 caracteres!';
+$_['error_product']     = 'Advertencia: Este tipo de impuesto no puede ser borrado mientras esté asignado a %s productos!';
 ?>

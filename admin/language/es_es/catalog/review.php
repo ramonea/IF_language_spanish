@@ -1,31 +1,31 @@
 <?php
 // Heading
-$_['heading_title']       = 'Reviews';
+$_['heading_title']     = 'Comentarios';
 
 // Text
-$_['text_success']      = 'Success: You have modified reviews!';
+$_['text_success']      = 'Correcto: Ha modificado Comentarios!';
 
 // Column
-$_['column_product']    = 'Product';
-$_['column_author']     = 'Author';
-$_['column_rating']     = 'Rating';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Action';
+$_['column_product']    = 'Producto';
+$_['column_author']     = 'Autor';
+$_['column_rating']     = 'Claficación';
+$_['column_status']     = 'Estado';
+$_['column_date_added'] = 'Fecha Adicionado';
+$_['column_action']     = 'Acción';
 
 // Entry
-$_['entry_product']     = 'Product:<br/><span class="help">(Autocomplete)</span>';
-$_['entry_author']      = 'Author:';
-$_['entry_rating']      = 'Rating:';
-$_['entry_status']      = 'Status:';
-$_['entry_text']        = 'Text:';
-$_['entry_good']        = 'Good';
-$_['entry_bad']         = 'Bad';
+$_['entry_product']     = 'Producto:';
+$_['entry_author']      = 'Autor:';
+$_['entry_rating']      = 'Clasificación:';
+$_['entry_status']      = 'Estado:';
+$_['entry_text']        = 'Texto:';
+$_['entry_good']        = 'Bueno';
+$_['entry_bad']         = 'Malo';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify reviews!';
-$_['error_product']     = 'Product required!';
-$_['error_author']      = 'Author must be between 3 and 64 characters!';
-$_['error_text']        = 'Review Text must be at least 1 character!';
-$_['error_rating']      = 'Review rating required!';
+$_['error_permission']  = 'Advertencia: No tiene permiso para modificar los comentarios!';
+$_['error_product']     = 'Producto requerido!';
+$_['error_author']      = 'El Autor debería debe estar entre 3 y 65 caracteres!';
+$_['error_text']        = 'Los textos de comentarios deberían tener al menos un caracter!';
+$_['error_rating']      = 'Se requiere Clasificación!';
 ?>
