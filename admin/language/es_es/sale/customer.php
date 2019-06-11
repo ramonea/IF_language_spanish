@@ -1,6 +1,8 @@
 <?php
 // Heading
 $_['heading_title']         = 'Clientes';
+$_['heading_contact']       = 'Contactos';
+
 
 // Text
 $_['text_login']            = 'Conectar';
@@ -18,6 +20,7 @@ $_['text_fiscal']           = 'Fiscal';
 $_['text_receptor']         = 'Receptor';
 $_['text_bic']              = 'BIC';
 $_['text_paid']             = 'Pago';
+$_['text_delete']           = 'Borrar';
 
 // Column
 $_['column_name']           = 'Nombre Cliente';
@@ -38,12 +41,19 @@ $_['column_company']        = 'Empresa';
 $_['column_user']           = 'Usuario';
 $_['column_date']           = 'Fecha';
 $_['column_telephone']      = 'Teléfono';
+$_['column_quote']          = 'Presupuesto';
+$_['column_delivery']       = 'Albarán';
 $_['column_invoice']        = 'Factura';
+$_['column_article']        = 'producto';
 $_['column_product_id']     = 'ID';
 $_['column_end_support']    = 'Fin de Soporte';
 $_['column_contact_email']  = 'Email contacto';
 $_['column_email_subject']  = 'Asunto';
 $_['column_email_text']     = 'Texto';
+$_['column_product_name']   = 'Producto';
+$_['column_order']   		= 'Orden';
+$_['column_order_date']   	= 'Fecha';
+$_['column_quantity']   	= 'Cantidad';
 
 // Tabs
 $_['tab_contacts']          = 'Contactos';
@@ -52,7 +62,7 @@ $_['tab_notes']             = 'Notas';
 $_['tab_various']           = 'Varios';
 $_['tab_info']              = 'Info';
 $_['tab_contracts']         = 'Contratos';
-$_['tab_products']          = 'Products';
+$_['tab_products']          = 'Productos';
 $_['tab_invoice']           = 'Facturas';
 $_['tab_quotes']            = 'Presupuestos';
 $_['tab_orders']            = 'Pedidos';
@@ -84,10 +94,22 @@ $_['entry_description']     = 'Descripción:';
 $_['entry_amount']          = 'Monto:';
 $_['entry_digital_invoice'] = 'Quiere factura digital';
 $_['entry_points']          = 'Puntos:<br /><span class="help">Usa menos para quitar puntos</span>';
+$_['entry_article']         = 'Articulos';
+$_['entry_notes']           = 'Notas';
+$_['entry_notas']           = 'Notas';
+$_['entry_puesto']          = 'Puesto';
+$_['entry_telephone2']      = 'Teléfono 2:';
+$_['entry_name']            = 'Nombre:';
+$_['entry_quantity']        = 'Cantidad:';
+$_['entry_end_support']     = 'Fin de soporte:';
+$_['entry_date']     	    = 'Fecha:';
 
 //Button
 $_['button_add_note']       = 'Añadir Nota:';
+$_['button_add_contact']    = 'Añadir Contacto:';
 $_['button_new_email']      = 'Nuevo Mail:';
+$_['heading_title_contract']= 'Contratos:';
+
 
 // Error
 $_['error_warning']         = 'Advertencia: Por favor revise el formulario cuidadosamente por si tiene errores!';
