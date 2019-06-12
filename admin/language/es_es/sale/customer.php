@@ -21,6 +21,9 @@ $_['text_receptor']         = 'Receptor';
 $_['text_bic']              = 'BIC';
 $_['text_paid']             = 'Pago';
 $_['text_delete']           = 'Borrar';
+$_['text_message']          = 'Mensaje';
+$_['text_subject']          = 'Asunto';
+$_['text_to']          		= 'A';
 
 // Column
 $_['column_name']           = 'Nombre Cliente';
