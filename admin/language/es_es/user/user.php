@@ -23,6 +23,8 @@ $_['entry_status']      = 'Estado:';
 $_['entry_language']    = 'Idioma:';
 $_['entry_image']       = 'Imagen:';
 $_['entry_captcha']     = 'Introduzca el Código mostrado en la caja de abajo:';
+$_['entry_language']    = 'Idiomar';
+$_['entry_image']       = 'Foto';
 
 // Error
 $_['error_permission']  = 'Advertencia: No tiene Permiso para modificar Usuarios!';
