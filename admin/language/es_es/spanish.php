@@ -8,7 +8,7 @@ $_['time_format']             = 'h:i:s A';
 $_['decimal_point']           = '.';
 $_['thousand_point']          = ',';
 
-// Text
+// Texto
 $_['text_yes']                = 'Si';
 $_['text_no']                 = 'No';
 $_['text_enabled']            = 'Habilitado';
